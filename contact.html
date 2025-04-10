@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Get in touch with Dawn and Sunset Cafe. Find our location, opening hours, and contact details here.">
+        <title>Contact Us - Dawn and Sunset Cafe</title>
+        <link rel="icon" href="coffee-icon.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <header>
+        <div class="logo-title">
+            <img src="logo.png" alt="Dawn and Sunset Cafe Logo" class="logo">
+            <h1>Dawn and Sunset Cafe</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html#homepage">Homepage</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact Us</a></li> <!-- Added contact link -->
+            </ul>
+        </nav>        
+    </header>
+
+    <main>
+        <section id="contact-form">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to reach out to us using the contact form below.</p>
+            <form action="submit_contact_form.php" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Dawn and Sunset Cafe. All Rights Reserved.</a></p>
+        <p>Let's connect! &hearts; <span>&#128075; &#128077; &#128512;</span></p>
+    </footer>
+</body>
+</html>

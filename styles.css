@@ -1,0 +1,310 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #DAB88B;
+    text-align: center;
+}
+
+header {
+    background-color: #8B5E3B;
+    color: #FFFFFF;
+    padding: 1rem;
+}
+
+.header-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.header-container h1 {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('background-hero1.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: flex-start; /* Align to start */
+    justify-content: center;
+    color: #F5DEB3;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    padding-top: 300px; /* Adjust the value to move the text down */
+}
+.menu-preview h2 {
+    padding-top: 25px;
+    margin-bottom: 25px; /* Adds space below the h2 */
+}
+.menu-preview img {
+    width: 200px; /* Fixed width */
+    height: 200px; /* Fixed height */
+    object-fit: cover; /* Ensures images cover the area without stretching */
+    margin: 10px;
+    border-radius: 10px;
+}
+.menu-preview p {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #8B5E3B;
+}
+.separator {
+    height: 2px; /* Height of the separator */
+    background-color: #F5DEB3; /* Color of the separator */
+    margin: 20px 0; /* Space around the separator */
+}
+.info {
+    margin-bottom: 20px;
+    color: #8B5E3B;
+    padding: 0px;
+}
+.map {
+    width: 75%;
+    height: 150px;
+}
+.social-links a {
+    margin: 10px;
+    text-decoration: none;
+    color: #E63946;
+    font-size: 1.2rem;
+}
+
+footer {
+    background-color: #8B5E3B;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer span {
+    font-size: 1.5rem;
+}
+/* Contact Form Styling */
+#contact-form {
+    background: url('coffee-contact.jpg') no-repeat center center/cover;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #8B5E3B;
+    font-weight: bold;
+}
+
+#contact-form p {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: #8B5E3B;
+    font-weight: bold;
+}
+
+#contact-form label {
+    display: block;
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #8B5E3B;
+    font-weight: bold;
+}
+
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0 1.5rem 0;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+}
+
+#contact-form button {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    background-color: #DAB88B;
+    color: #E63946;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#contact-form button:hover {
+    background-color: #005bb5;
+}
+
+/* Container for About Us Section */
+.about-us {
+    background-color: #FFFFFF;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+.about-us h1 {
+    font-size: 2.5rem;
+    color: #8B5E3B;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-us h2 {
+    font-size: 2rem;
+    margin-top: 30px;
+    color: #E63946;
+}
+
+/* Paragraph and List Styling */
+.about-us p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+/* Team Section Styles */
+.team {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.team-member {
+    width: 45%;
+    text-align: center;
+    padding: 10px;
+}
+
+.team-member img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Links */
+a {
+    color: #005bb5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .team {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-member {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Blog Section Styling */
+.blog {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  
+  .blog h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #8B5E3B;
+    margin-bottom: 10px;
+  }
+  
+  .intro {
+    text-align: center;
+    font-style: italic;
+    color: #DAB88B;
+    margin-bottom: 30px;
+  }
+  
+  .blog-entry {
+    background-color: #FFFFFF;
+    border-left: 5px solid #8B5E3B;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .blog-entry h2 {
+    margin-top: 0;
+    color: #8B5E3B;
+  }
+  
+  .blog-entry .date {
+    font-size: 0.9rem;
+    color: #DAB88B;
+    margin-bottom: 10px;
+  }
+  
+  .blog-entry p {
+    line-height: 1.6;
+  }
